@@ -1,0 +1,12 @@
+#coding=windows-1251
+a=int(input('¬ведите чило а '))
+b=int(input("¬ведите число b "))
+
+if a<=b:
+
+ for i in range(a, b+1):
+
+  if i%2==0:
+    print(i, end=" ")
+else:
+  print("„исло а должно быть меньше или равно b")
